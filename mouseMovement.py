@@ -25,7 +25,7 @@ while True:
                     index_x = screen_width/frame_width*x
                     index_y = screen_height/frame_height*y
 
-                if id == 20:
+                if id == 4:
                     cv2.circle(img=frame, center=(x,y), radius=10, color=(0, 255, 255))
                     thumb_x = screen_width/frame_width*x
                     thumb_y = screen_height/frame_height*y
